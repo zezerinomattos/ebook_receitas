@@ -1,0 +1,67 @@
+
+
+/*-------------------------------------------------*/
+/*                ELIPSE LEFT                      */
+/*-------------------------------------------------*/
+@media(max-width: 900px){
+    header.container div.elipse-container div.elipse-left{
+        display: none;
+    }
+
+    header.container div.elipse-container div.elipse-right div.cicle-right-one{
+        position: absolute;
+        left: 240px;
+        top: 40px;
+    
+    }
+    
+    header.container div.elipse-container div.elipse-right div.cicle-right-two{
+        position: absolute;
+        left: 190px;
+        top: 10px;
+    }
+    
+    header.container div.elipse-container div.elipse-right div.cicle-right-three{
+        position: absolute;
+        left: 90px;
+        top: 30px;
+    }
+    
+    header.container div.elipse-container div.elipse-right div.cicle-right-four{
+        position: absolute;
+        left: 40px;
+        top: 10px;
+    }
+}
+
+/*-------------------------------------------------*/
+/*                INFORMAÇÕES E FORM               */
+/*-------------------------------------------------*/
+@media(max-width: 1000px){
+    header.container div.information-container{
+        padding: 0 1rem;
+    }
+}
+
+/*-------------------------------------------------*/
+/*              SECTION SOCIAL MEDIA               */
+/*-------------------------------------------------*/
+
+@media(max-width: 670px){
+    section.social-media a span{
+        display: none;
+    }
+
+    section.social-media div.contact a ion-icon{
+        font-size: 3rem;
+    }
+}
+
+/*-------------------------------------------------*/
+/*                      FOOTER                     */
+/*-------------------------------------------------*/
+@media(max-width: 415px){
+    footer a{
+        padding: 1rem 5rem;
+    }
+}

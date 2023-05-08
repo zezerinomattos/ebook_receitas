@@ -1,0 +1,332 @@
+header.container{
+    width: 100%;
+    padding-bottom: 60px;
+
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+}
+
+header.container div.elipse-container{
+    width: 90%;
+    height: 250px;
+    margin: 0 auto;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*-------------------------------------------------*/
+/*                ELIPSE LEFT                      */
+/*-------------------------------------------------*/
+
+header.container div.elipse-container div.elipse-left{
+    max-width: 600px;
+    height: 250px;
+    display: flex;
+    flex-flow: row;
+
+    position: relative;
+}
+
+header.container div.elipse-container div.elipse-left div.cicle-left-one{
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+}
+
+header.container div.elipse-container div.elipse-left div.cicle-left-two{
+    position: absolute;
+    left: 50px;
+    top: 25px;
+}
+
+header.container div.elipse-container div.elipse-left div.cicle-left-three{
+    position: absolute;
+    left: 140px;
+    bottom: 30px;
+}
+
+/*-------------------------------------------------*/
+/*                ELIPSE RIGHT                     */
+/*-------------------------------------------------*/
+
+header.container div.elipse-container div.elipse-right{
+    max-width: 600px;
+    height: 250px;
+    display: flex;
+    flex-flow: row;
+
+    position: relative;
+}
+
+header.container div.elipse-container div.elipse-right div.cicle-right-one{
+    position: absolute;
+    right: 350px;
+    bottom: 20px;
+
+}
+
+header.container div.elipse-container div.elipse-right div.cicle-right-two{
+    position: absolute;
+    right: 310px;
+    top: 22px;
+}
+
+header.container div.elipse-container div.elipse-right div.cicle-right-three{
+    position: absolute;
+    right: 190px;
+    bottom: 0;
+}
+
+header.container div.elipse-container div.elipse-right div.cicle-right-four{
+    position: absolute;
+    right: 130px;
+    bottom: 15px;
+}
+
+/*-------------------------------------------------*/
+/*                INFORMAÇÕES E FORM               */
+/*-------------------------------------------------*/
+
+header.container div.information-container{
+    width: 100%;
+    padding-bottom: 5rem;
+    margin-top: -2.5rem;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+/*                LEFT              */
+
+header.container div.information-container div.information-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+    max-width: 500px;
+
+    /* background-color: aqua; */
+}
+
+header.container div.information-container div.information-left div.information-text{
+    max-width: 90%;
+}
+
+header.container div.information-container div.information-left div.information-text h3{
+    color: #6F6F6F;
+    font-size: max(17px, 1.6vw);
+}
+
+header.container div.information-container div.information-left div.information-text h1{
+    font-size: max(22px, 2.5vw);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+header.container div.information-container div.information-left div.information-text h4{
+    max-width: 95%;
+    margin-bottom: 1.5rem;
+    font-size: max(16px, 1.2vw);
+}
+
+header.container div.information-container div.information-left div.information-text p{
+    max-width: 95%;
+    margin-bottom: 1.5rem;
+    font-weight: 300;
+}
+
+header.container div.information-container div.information-left div.information-img{
+    max-width: 250px;
+    max-height: 350px;
+}
+
+header.container div.information-container div.information-left div.information-img img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*                RIGHT              */
+
+header.container div.information-container div.information-right{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+
+    margin-top: 5.2rem;
+}
+
+header.container div.information-container div.information-right form{
+    max-width: 100%;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 40px 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header.container div.information-container div.information-right form div.form-input{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: 1.5rem;
+}
+
+header.container div.information-container div.information-right form div.form-input input.form-input{
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+header.container div.information-container div.information-right form div.form-input label.label-input{
+    font-size: max(16px, 0.9vw);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+header.container div.information-container div.information-right form div.form-text{
+    max-width: 90%;
+    text-align: left;
+    margin-top: 2rem;
+    margin-bottom: 1.2rem;
+}
+
+header.container div.information-container div.information-right form div.form-text span{
+    font-size: max(15px, 0.9vw);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+header.container div.information-container div.information-right form div.form-enquete{
+    width: 90%;
+    margin-bottom: 1.2rem;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+header.container div.information-container div.information-right form div.form-enquete input{
+    margin-right: 5px;
+}
+
+header.container div.information-container div.information-right form button.form-button{
+    width: 60%;
+    height: 60px;
+    background-color: #3C6401;
+    border: none;
+    border-radius: 50px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+    color: #FFF;
+    font-weight: bold;
+    font-size: max(16px, 1.1vw);
+    transition: 0.8s ease-out;
+}
+
+header.container div.information-container div.information-right form button.form-button:hover{
+    opacity: 0.8;
+}
+
+/*-------------------------------------------------*/
+/*              SECTION MORE SERVICES             */
+/*-------------------------------------------------*/
+
+main.more-services-container{
+    width: 100%;
+    padding: 20px 10px;
+    background-color: #FFF;
+}
+
+main.more-services-container section.services{
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 4rem auto;
+}
+
+main.more-services-container section.services span{
+    font-size: max(18px, 0.9vw);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+/*-------------------------------------------------*/
+/*              SECTION SOCIAL MEDIA               */
+/*-------------------------------------------------*/
+
+section.social-media{
+    width: 100%;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+section.social-media div.contact{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 1rem;
+}
+
+section.social-media a{
+    display: flex;
+    flex-flow: row wrap;
+    text-decoration: none;
+}
+
+section.social-media div.contact a ion-icon{
+    color: blue;
+    font-size: 1.8rem;
+    margin-right: 5px;
+}
+
+section.social-media a span{
+    font-size: max(14px, 0.9vw);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #000;
+}
+
+/*-------------------------------------------------*/
+/*                      FOOTER                     */
+/*-------------------------------------------------*/
+
+footer{
+    width: 100%;
+    background-color: #FFF;
+    padding: 5rem 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a{
+    text-decoration: none;
+    padding: 1.5rem 8rem;
+    border: 1px solid #000;
+    border-radius: 50px;
+    color: #000;
+    text-shadow: 2px 2px 4px #494747;
+    font-size: max(20px, 1.8vw);
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 2px 2px 4px #000;
+    transition: .8s ease-out;
+}
+
+footer a:hover{
+    background-color: #3C6401;
+    color: #FFF;
+}
