@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Ebook Receitas - Landing Page em React.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto de uma Landing Page desenvolvida em React.js para um afiliado de um E-book de receitas. O objetivo é apresentar de forma clara e objetiva as informações sobre o produto e incentivar a o Download.
 
-## Available Scripts
+### Tecnologias utilizadas
 
-In the project directory, you can run:
+React.js
+CSS
+VS Code
 
-### `npm start`
+### Instalação e execução
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Para executar o projeto em sua máquina, siga os seguintes passos:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone o repositório:
 
-### `npm test`
+git clone https://github.com//zezerinomattos/ebook_receitas.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Acesse a pasta do projeto:
 
-### `npm run build`
+cd ebook_receitas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Instale as dependências:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Execute o projeto:
 
-### `npm run eject`
+npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+O projeto será executado em http://localhost:3000.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Como contribuir
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Se você quiser contribuir com o projeto, siga os seguintes passos:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Fork este repositório.
 
-## Learn More
+2. Crie uma nova branch com a sua modificação: git checkout -b minha-modificacao
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Faça as suas modificações e teste o projeto.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Envie as suas modificações: git commit -m 'Minha modificação'
 
-### Code Splitting
+5. Envie a sua branch para o repositório remoto: git push origin minha-modificacao
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+6. Crie um Pull Request para a branch main deste repositório.
 
-### Analyzing the Bundle Size
+Será um prazer receber a sua contribuição!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
